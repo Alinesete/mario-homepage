@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <head>
+        <title>Super Mario</title>
+        <link rel="icon" type="image/x-icon" href="./src/img/favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/styles.css">
+        <link rel="stylesheet" href="./src/css/responsive.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="container_bg">
+            <video class="video" autoplay loop muted>
+                <source src="./src/img/video-mario.mp4" type="video/mp4">
+            </video>
+
+        </div>
+
+        <header class="header">
+            <a>
+                <img src="./src/img/logo-chapeu-mario.png" class="logo" alt="logo chapéu mario">
+            </a>
+
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Detalhes</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main class="container">
+            <div class="mov">
+                <img src="./src/img/titulo.png" alt="titulo filme" class="title">
+                <p class="desc">Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares.</p>
+                <button class="watch">Veja o trailer</button>
+            </div>
+
+            <div class="img">
+                <img src="./src/img/super-mario-chars.png" class="img">
+            </div>
+            <div class="modal">
+                <div class="content">
+                    <span class="close">X</span>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </main>
+        <script src="./src/js/script.js"></script>
+    </body>
+
+</DOCTYPE>
