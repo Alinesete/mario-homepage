@@ -1,7 +1,8 @@
-Super Mario trailer homepage
+## Super Mario trailer page<br>
 
-Checklist
-✅ HTML
-✅ CSS
-✅ Responsive CSS
-❎ Javascript
+Checklist<br>
+
+✓    HTML<br>
+✓    CSS<br>
+✓    Responsive CSS<br>
+✘         Javascript<br>
